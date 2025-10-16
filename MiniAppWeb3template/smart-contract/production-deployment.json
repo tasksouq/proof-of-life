@@ -1,0 +1,144 @@
+{
+  "network": "worldchain",
+  "chainId": 480,
+  "deployer": "0xA13A18ccD767B83543212B0424426A374f565Fb8",
+  "deployedAt": "2025-09-10T20:32:19.509Z",
+  "contracts": {
+    "life": "0xCb60B6C6f44138Eef5d8e0ABECcA4Ad34Db16B68",
+    "property": "0xaECD39A7aFE6C34Fbd76446d95EbB2D97eA6B070",
+    "limitedEdition": "0xd31AeDF0d364e17363BaBB5164DBC64e42d9A34e",
+    "playerRegistry": "0x292B0D28b54F241ad230eba9Cdc235c6B7A6FF57",
+    "economy": "0xe2fd8b534B9A3C8ba2353a2309A9a3d6f7dF9636",
+    "economyOld": "0xa9df17292D42Ce503daBE61ec3da107E45E836C9",
+    "economySimple": {
+      "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "deployedAt": "2025-09-16T19:57:02.661Z",
+      "version": "simple",
+      "features": [
+        "life-wld-payments",
+        "property-yield-earning",
+        "yield-claiming",
+        "level-based-pricing",
+        "property-buyback"
+      ]
+    }
+  },
+  "configuration": {
+    "worldIdRouter": "0x17B354dD2595411ff79041f930e491A4Df39A278",
+    "wldToken": "0x2cFc85d8E48F8EAB294be644d9E25C3030863003",
+    "devWallet": "0xA13A18ccD767B83543212B0424426A374f565Fb8",
+    "treasury": "0xA13A18ccD767B83543212B0424426A374f565Fb8",
+    "useRealWorldId": true
+  },
+  "verification": {
+    "lifeToken": {
+      "name": "LIFE",
+      "symbol": "LIFE",
+      "groupId": 1,
+      "appId": "app_960683747d9e6074f64601c654c8775f",
+      "action": "proof-of-life",
+      "dailyAmount": "1.0",
+      "signingBonus": "1000.0",
+      "devPremint": "1000000.0"
+    },
+    "economy": {
+      "treasuryFee": 500,
+      "devFee": 200,
+      "buybackPercentage": 7500,
+      "wldToLifeRate": "100.0",
+      "canMintLife": true,
+      "canMintProperty": true,
+      "canMintLE": true,
+      "canUpdatePlayer": true
+    },
+    "property": {
+      "baseStats": {
+        "house": {
+          "lifePrice": "1000.0",
+          "wldPrice": "10.0",
+          "isActive": true
+        },
+        "apartment": {
+          "lifePrice": "500.0",
+          "wldPrice": "5.0",
+          "isActive": true
+        },
+        "office": {
+          "lifePrice": "2000.0",
+          "wldPrice": "20.0",
+          "isActive": true
+        },
+        "land": {
+          "lifePrice": "750.0",
+          "wldPrice": "7.5",
+          "isActive": true
+        },
+        "mansion": {
+          "lifePrice": "5000.0",
+          "wldPrice": "50.0",
+          "isActive": true
+        }
+      }
+    },
+    "limitedEdition": {},
+    "playerRegistry": {},
+    "worldId": {}
+  },
+  "gasUsed": {
+    "life": "0.000000514893418917",
+    "property": "0.000000714912495208",
+    "limitedEdition": "0.000000673520676055",
+    "playerRegistry": "0.000000560420756097",
+    "economy": "0.000000841759958778"
+  },
+  "totalGasUsed": "0.000003",
+  "finalBalance": "0.00028062836100126",
+  "economyUpgrade": {
+    "type": "simple-economy",
+    "deployedAt": "2025-09-16T20:01:02.355Z",
+    "deployer": "0xA13A18ccD767B83543212B0424426A374f565Fb8",
+    "oldEconomy": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "newEconomy": "0xe2fd8b534B9A3C8ba2353a2309A9a3d6f7dF9636",
+    "gasUsed": "0.000018432818376606",
+    "verification": {
+      "economyAddress": "0xe2fd8b534B9A3C8ba2353a2309A9a3d6f7dF9636",
+      "features": [
+        "life-wld-payments",
+        "property-yield-earning",
+        "yield-claiming",
+        "level-based-pricing",
+        "property-buyback"
+      ],
+      "propertyPricing": {
+        "house": {
+          "lifePrice": "1000.0",
+          "wldPrice": "10.0",
+          "isActive": true
+        }
+      },
+      "settings": {
+        "wldToLifeRate": "100.0",
+        "baseIncomeRate": "1.0",
+        "treasuryFee": 500,
+        "devFee": 200
+      },
+      "permissions": {
+        "canMintLife": true,
+        "canMintProperty": true,
+        "canMintLE": true,
+        "canUpdatePlayer": true
+      }
+    }
+  },
+  "ECONOMY": "0xB6831e4EC7502cAe80Ba6308Ac2B3812c5C815Df",
+  "ECONOMY_VERSION": "updated_with_direct_transfers",
+  "DEPLOYMENT_DATE": "2025-09-16T20:56:51.013Z",
+  "DEPLOYER": "0xA13A18ccD767B83543212B0424426A374f565Fb8",
+  "NETWORK": "worldchain",
+  "LIFE_TOKEN_RETAINED": "0xE4D62e62013EaF065Fa3F0316384F88559C80889",
+  "NEW_FEATURES": [
+    "purchasePropertyWithDirectTransfer - for LIFE payments without approvals",
+    "purchasePropertyWithDirectWLDTransfer - for WLD payments without approvals",
+    "MiniKit compatible payment flows"
+  ]
+}

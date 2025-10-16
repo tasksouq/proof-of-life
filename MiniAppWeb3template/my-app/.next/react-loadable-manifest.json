@@ -1,0 +1,34 @@
+{
+  "..\\node_modules\\.pnpm\\next@15.5.4_react-dom@19.2.0_react@19.2.0__react@19.2.0\\node_modules\\next\\dist\\client\\dev\\hot-reloader\\app\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts": {
+    "id": "..\\node_modules\\.pnpm\\next@15.5.4_react-dom@19.2.0_react@19.2.0__react@19.2.0\\node_modules\\next\\dist\\client\\dev\\hot-reloader\\app\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_next_15_5_4_react-dom_19_2_0_react_19_2_0__react_19_2_0_-697393.js"
+    ]
+  },
+  "..\\node_modules\\.pnpm\\viem@2.38.0_typescript@5.9.3\\node_modules\\viem\\_esm\\actions\\public\\call.js -> ../../utils/ccip.js": {
+    "id": "..\\node_modules\\.pnpm\\viem@2.38.0_typescript@5.9.3\\node_modules\\viem\\_esm\\actions\\public\\call.js -> ../../utils/ccip.js",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_viem_2_38_0_typescript_5_9_3_node_modules_viem__esm_util-b56c7c.js"
+    ]
+  },
+  "..\\node_modules\\.pnpm\\viem@2.38.0_typescript@5.9.3\\node_modules\\viem\\_esm\\utils\\rpc\\webSocket.js -> isows": {
+    "id": "..\\node_modules\\.pnpm\\viem@2.38.0_typescript@5.9.3\\node_modules\\viem\\_esm\\utils\\rpc\\webSocket.js -> isows",
+    "files": []
+  },
+  "..\\node_modules\\.pnpm\\viem@2.38.0_typescript@5.9.3\\node_modules\\viem\\_esm\\utils\\signature\\recoverPublicKey.js -> @noble/curves/secp256k1": {
+    "id": "..\\node_modules\\.pnpm\\viem@2.38.0_typescript@5.9.3\\node_modules\\viem\\_esm\\utils\\signature\\recoverPublicKey.js -> @noble/curves/secp256k1",
+    "files": []
+  },
+  "components\\Globe3D.tsx -> react-globe.gl": {
+    "id": "components\\Globe3D.tsx -> react-globe.gl",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_react-globe_gl_2_36_0_react_19_2_0_node_modules_react-gl-1f787e.js"
+    ]
+  },
+  "providers\\eruda-provider.tsx -> eruda": {
+    "id": "providers\\eruda-provider.tsx -> eruda",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_eruda_3_4_3_node_modules_eruda_eruda_js.js"
+    ]
+  }
+}

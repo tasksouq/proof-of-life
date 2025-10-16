@@ -1,0 +1,15 @@
+{
+  "network": "worldchain",
+  "chainId": 480,
+  "deployer": "0xA13A18ccD767B83543212B0424426A374f565Fb8",
+  "deployedAt": "2025-09-11T23:27:07.927Z",
+  "contracts": {
+    "life": "0xE4D62e62013EaF065Fa3F0316384F88559C80889",
+    "worldIdRouter": "0x17B354dD2595411ff79041f930e491A4Df39A278"
+  },
+  "verification": {
+    "groupId": 1,
+    "appId": "app_960683747d9e6074f64601c654c8775f",
+    "action": "proof-of-life"
+  }
+}

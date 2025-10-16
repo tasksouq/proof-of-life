@@ -1,0 +1,58 @@
+{
+  "contracts": {
+    "life": {
+      "address": "0xCb60B6C6f44138Eef5d8e0ABECcA4Ad34Db16B68",
+      "events": [
+        "DailyRewardClaimed",
+        "OrbVerificationCompleted",
+        "Transfer"
+      ]
+    },
+    "economy": {
+      "address": "0xa9df17292D42Ce503daBE61ec3da107E45E836C9",
+      "events": [
+        "PropertyPurchased",
+        "LimitedEditionPurchased",
+        "PropertyIncomeClaimed",
+        "PropertySoldToContract"
+      ]
+    },
+    "property": {
+      "address": "0xaECD39A7aFE6C34Fbd76446d95EbB2D97eA6B070",
+      "events": [
+        "Transfer",
+        "PropertyMinted",
+        "PropertyUpgraded"
+      ]
+    },
+    "limitedEdition": {
+      "address": "0xd31AeDF0d364e17363BaBB5164DBC64e42d9A34e",
+      "events": [
+        "Transfer",
+        "LimitedEditionMinted"
+      ]
+    },
+    "playerRegistry": {
+      "address": "0x292B0D28b54F241ad230eba9Cdc235c6B7A6FF57",
+      "events": [
+        "PlayerRegistered",
+        "PlayerDataUpdated",
+        "NewSeasonStarted"
+      ]
+    }
+  },
+  "analytics": {
+    "explorerBase": "https://explorer.worldcoin.org",
+    "rpcUrl": "https://worldchain-mainnet.g.alchemy.com/public",
+    "chainId": 480
+  },
+  "metrics": [
+    "Daily Active Users (claiming LIFE)",
+    "Total Orb Verifications",
+    "Property Sales Volume",
+    "Limited Edition Sales",
+    "Property Income Generated",
+    "Player Registrations",
+    "Regional Distribution"
+  ]
+}

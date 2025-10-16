@@ -1,0 +1,38 @@
+{
+  "network": "worldchain",
+  "chainId": 480,
+  "useRealWorldId": false,
+  "contracts": {
+    "worldIdRouter": "0x75E1Ef72efcba1B24D965F0719115485c108d628",
+    "lifeToken": "0x1f3BfD3593C380fAC5ED40113471A8DC4973a002",
+    "property": "0xf2595d3037d4f3eD6C51565C2be6638Ab0D725cc",
+    "limitedEdition": "0x83A7dd38F5232BEdc5cFc02F0E218cc27091A40d",
+    "playerRegistry": "0x7A2Ec310d5F86c5F60fAA7DdEB0c862874b0a469",
+    "economy": "0x0a1741Fb535d1013702b8aDD36f571Cc5F3951c4",
+    "wldToken": "0x1fBcaEBe44ED0aCCD2B9747e24eFbEB33c12Ec14"
+  },
+  "deployer": "0xA13A18ccD767B83543212B0424426A374f565Fb8",
+  "deployedAt": "2025-09-10T19:17:55.410Z",
+  "orbVerification": {
+    "groupId": "1",
+    "externalNullifierHash": "333545013268033606231922768817910041010535579982205010670445874042009088680",
+    "appId": "app_960683747d9e6074f64601c654c8775f",
+    "action": "proof-of-life"
+  },
+  "explorerUrls": {
+    "worldIdRouter": "https://explorer.worldcoin.org/address/0x75E1Ef72efcba1B24D965F0719115485c108d628",
+    "lifeToken": "https://explorer.worldcoin.org/address/0x1f3BfD3593C380fAC5ED40113471A8DC4973a002",
+    "property": "https://explorer.worldcoin.org/address/0xf2595d3037d4f3eD6C51565C2be6638Ab0D725cc",
+    "economy": "https://explorer.worldcoin.org/address/0x0a1741Fb535d1013702b8aDD36f571Cc5F3951c4"
+  },
+  "networkInfo": {
+    "name": "Worldchain Mainnet",
+    "rpcUrl": "https://worldchain-mainnet.g.alchemy.com/public",
+    "blockExplorer": "https://explorer.worldcoin.org",
+    "nativeCurrency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  }
+}

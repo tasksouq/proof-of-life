@@ -1,0 +1,14 @@
+{
+  "LIFE_TOKEN": "0xE4D62e62013EaF065Fa3F0316384F88559C80889",
+  "ECONOMY_CONTRACT": "0xB6831e4EC7502cAe80Ba6308Ac2B3812c5C815Df",
+  "INTEGRATION_DATE": "2025-10-03T20:40:18.138Z",
+  "SETUP_BY": "0xA13A18ccD767B83543212B0424426A374f565Fb8",
+  "NETWORK": "worldchain",
+  "STATUS": "COMPLETED",
+  "FEATURES": [
+    "Economy contract authorized to mint LIFE tokens",
+    "LIFE token has World ID verification",
+    "Property purchases with LIFE tokens enabled",
+    "Yield rewards in LIFE tokens enabled"
+  ]
+}

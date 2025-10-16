@@ -1,0 +1,29 @@
+{
+  "network": "worldchain",
+  "chainId": 480,
+  "contracts": {
+    "lifeToken": "0x5c231686b74CB255b7952E120b4C5AB370f9194C",
+    "mockWorldIDAddressBook": "0xA45d4B3e98b6e6d29D871315c3307CAb9708c8ad",
+    "property": "0xc2A30169Ece45605E70E4593bf221f789D576102",
+    "limitedEdition": "0x7e1D7ba19B695837132fdac8dAa1aed073E16012",
+    "playerRegistry": "0x062ED42459487c94b682B5a328848B2f5a615223",
+    "economy": "0xC49e59216Ae053586F416fEde49b1A9d2B290a29",
+    "wldToken": "0x2cFc85d8E48F8EAB294be644d9E25C3030863003"
+  },
+  "deployer": "0xA13A18ccD767B83543212B0424426A374f565Fb8",
+  "deployedAt": "2025-09-05T11:03:47.669Z",
+  "explorerUrls": {
+    "mockWorldIDAddressBook": "https://explorer.worldcoin.org/address/0x1f0257350072568cf5b6BfB8f3f0F0e687F4e49c",
+    "lifeToken": "https://explorer.worldcoin.org/address/0x5c231686b74CB255b7952E120b4C5AB370f9194C"
+  },
+  "networkInfo": {
+    "name": "Worldchain Mainnet",
+    "rpcUrl": "https://worldchain-mainnet.g.alchemy.com/public",
+    "blockExplorer": "https://explorer.worldcoin.org",
+    "nativeCurrency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  }
+}
