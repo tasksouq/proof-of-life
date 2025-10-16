@@ -10,6 +10,7 @@ const nextConfig = {
     // your project has type errors.
     ignoreBuildErrors: true,
   },
+  output: 'standalone', // Enable Docker optimization
 };
 
 module.exports = nextConfig;
